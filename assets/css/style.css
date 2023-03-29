@@ -30,23 +30,22 @@ h1, h2 {
 /* dropdown menu */
 
 #menu {
-    font-size: 120%;
     letter-spacing: 2px;
     float: right;
     margin-right: 60px;
 }
 
-#dropdown, #logo {
+#logo {
     line-height: 75px;
 }
 
 #dropdown {
-    font-size: 120%;
+    font-size: 150%;
     letter-spacing: 2px;
     background-color: whitesmoke;
     padding: 8px;
-    border: none;
     font-weight: bold;
+    margin-top: 25px;
 }
 
 #links {
@@ -57,10 +56,11 @@ h1, h2 {
 
 #links a {
     color: black;
-    padding: 10px 10px;
+    padding: 5px 5px;
     text-decoration: none;
     display: block;
     font-weight: bold;
+    font-size: 120%;
 }
 
 #menu:hover #links {
@@ -73,8 +73,4 @@ h1, h2 {
 
 #menu:hover #dropdown {
     background-color: darkgoldenrod;
-}
-
-.active {
-    border-bottom: 1px solid black;
 }
