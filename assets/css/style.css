@@ -26,3 +26,55 @@ h1, h2 {
     font-size: 300%;
     float: left;
 }
+
+/* dropdown menu */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 2px;
+    float: right;
+    margin-right: 60px;
+}
+
+#dropdown, #logo {
+    line-height: 75px;
+}
+
+#dropdown {
+    font-size: 120%;
+    letter-spacing: 2px;
+    background-color: whitesmoke;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+}
+
+#links {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+}
+
+#links a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+#menu:hover #links {
+    display: block;
+}
+
+#links a:hover {
+    background-color:darkgoldenrod
+}
+
+#menu:hover #dropdown {
+    background-color: darkgoldenrod;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
