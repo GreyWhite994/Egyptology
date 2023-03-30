@@ -74,3 +74,11 @@ h1, h2 {
 #menu:hover #dropdown {
     background-color: darkgoldenrod;
 }
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/desert-3217765_1920.jpg) no-repeat center center;
+}
