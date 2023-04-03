@@ -43,9 +43,9 @@ h1, h2 {
     font-size: 150%;
     letter-spacing: 2px;
     background-color: whitesmoke;
-    padding: 8px;
-    font-weight: bold;
+    padding: 6px;
     margin-top: 25px;
+    width: 93.5px;
 }
 
 #links {
@@ -59,26 +59,83 @@ h1, h2 {
     padding: 5px 5px;
     text-decoration: none;
     display: block;
-    font-weight: bold;
     font-size: 120%;
+    text-align: center;
 }
 
 #menu:hover #links {
     display: block;
+    font-weight: bolder;
 }
 
 #links a:hover {
-    background-color:darkgoldenrod
+    background-color:darkgoldenrod;
+    font-weight: bold;
 }
 
 #menu:hover #dropdown {
     background-color: darkgoldenrod;
+    font-weight: bold;
 }
 
 /* hero image */
 
-#hero-image {
+#hero-section {
     height: 600px;
     width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width:100%;
     background: url(../images/desert-3217765_1920.jpg) no-repeat center center;
+}
+
+/* create movement for sun on hero image to move left to right */
+
+#sun {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    position: relative;
+    border-radius: 50%;
+    animation: sun-slide 10s infinite;
+}
+
+@keyframes sun-slide {
+    0% {
+        top: 50px; left:0px;
+    }
+    10% {
+        top: 35px; left:150px;
+    }
+    20% {
+        top: 20px; left:300px;
+    }
+    30% {
+        top: 10px; left:450px;
+    }
+    40% {
+        top: 0px; left:600px;
+    }
+    50% {
+        top: -10px; left:750px;
+    }
+    60% {
+        top: -20px; left: 900px;
+    }
+    70% {
+        top: -10px; left: 1050px;
+    }
+    80% {
+        top: 0px; left: 1200px;
+    }
+    90% {
+        top: 10px; left: 1350px;
+    }
+
+    100% {
+        top: 20px; left:1500px;
+    }
 }
