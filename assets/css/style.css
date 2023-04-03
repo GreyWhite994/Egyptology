@@ -118,11 +118,11 @@ h1, h2 {
 /* create movement for sun on hero image to move left to right */
 
 #sun {
-    width: 100px;
-    height: 100px;
-    background: yellow;
-    position: relative;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
+    background: url(../images/favpng_animation-sunlight-clip-art.png) center no-repeat;
+    position: relative;
     animation: sun-slide 10s infinite;
 }
 
