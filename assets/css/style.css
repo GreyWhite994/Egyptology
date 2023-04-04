@@ -164,11 +164,19 @@ h1, h2 {
     }
 }
 
+/* heading and paragraph styling */
+
+.main-headings {
+    text-align: center;
+    font-size: 180%;
+}
+
 /* timeline styling */
 
 .years {
     font-size: 100%;
     letter-spacing: 2px;
+    text-decoration: underline;
 }
 
 .content {
