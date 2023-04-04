@@ -72,6 +72,7 @@ h1, h2 {
 
 #links a:hover {
     font-weight: bold;
+    background-color: black;
 }
 
 #menu:hover #dropdown {
