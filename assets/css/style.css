@@ -42,10 +42,10 @@ h1, h2 {
 #dropdown {
     font-size: 150%;
     letter-spacing: 2px;
-    background-color: whitesmoke;
+    background-color: black;
     padding: 6px;
     margin-top: 25px;
-    width: 93.5px;
+    color: darkgoldenrod;
 }
 
 #links {
@@ -56,12 +56,13 @@ h1, h2 {
 }
 
 #links a {
-    color: black;
+    color: darkgoldenrod;
     padding: 5px 5px;
     text-decoration: none;
     display: block;
     font-size: 120%;
     text-align: center;
+    width: 98px;
 }
 
 #menu:hover #links {
@@ -70,12 +71,11 @@ h1, h2 {
 }
 
 #links a:hover {
-    background-color:darkgoldenrod;
     font-weight: bold;
 }
 
 #menu:hover #dropdown {
-    background-color: darkgoldenrod;
+    background-color: whitesmoke;
     font-weight: bold;
 }
 
