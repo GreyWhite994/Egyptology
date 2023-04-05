@@ -173,6 +173,10 @@ h1, h2 {
 
 /* timeline styling */
 
+#timeline {
+    height: 450px;
+}
+
 .years {
     font-size: 100%;
     letter-spacing: 2px;
@@ -181,4 +185,11 @@ h1, h2 {
 
 .content {
     color: darkgoldenrod;
+    
+}
+
+#hieroglyph-image {
+    float: right;
+    height: 400px;
+    padding-right: 25px;
 }
