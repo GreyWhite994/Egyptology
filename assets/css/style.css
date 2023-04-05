@@ -129,38 +129,38 @@ h1, h2 {
 
 @keyframes sun-slide {
     0% {
-        top: 50px; left:0px;
+        top: 60px; left:0px;
     }
     10% {
-        top: 35px; left:150px;
+        top: 40px; left:150px;
     }
     20% {
-        top: 20px; left:300px;
+        top: 30px; left:300px;
     }
     30% {
-        top: 10px; left:450px;
+        top: 20px; left:450px;
     }
     40% {
-        top: 0px; left:600px;
+        top: 10px; left:600px;
     }
     50% {
-        top: -10px; left:750px;
+        top: 5px; left:750px;
     }
     60% {
-        top: -20px; left: 900px;
+        top: 0px; left: 900px;
     }
     70% {
-        top: -10px; left: 1050px;
+        top: 0px; left: 1050px;
     }
     80% {
-        top: 0px; left: 1200px;
+        top: 10px; left: 1200px;
     }
     90% {
-        top: 10px; left: 1350px;
+        top: 20px; left: 1350px;
     }
 
     100% {
-        top: 20px; left:1500px;
+        top: 30px; left:1500px;
     }
 }
 
