@@ -193,3 +193,24 @@ h1, h2 {
     height: 400px;
     padding-right: 25px;
 }
+
+
+/* footer styling */
+
+footer {
+    height: 150px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+}
