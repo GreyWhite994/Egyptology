@@ -214,3 +214,62 @@ footer {
     margin: 1%;
     padding: 5%;
 }
+
+/* form styling */
+
+.sign-up {
+    clear: left;
+    background: url(../images/newsletter_background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.newsletter-form {
+    margin-top:150px;
+    background-color:rgba(0, 0, 0, 0.7);
+    max-width:600px;
+    position:absolute;
+    left:28%;
+    padding:30px;
+}
+
+.newsletter-form > h2 {
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.form-input {
+    background:transparent;
+    display: block;
+    color: #daa520;
+    width:75%;
+    height:25px;
+    margin:5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius:2px;
+}
+
+.form-input:hover {
+    border-color: darkgoldenrod;
+}
+
+.submit-button {
+    margin-top:20px;
+    border-radius:2px;
+    padding: 10px 25px 10px 25px;
+    text-align:center;
+    font-size:100%;
+    background-color: darkgoldenrod;
+    color: black;
+    display: block;
+}
+
+.submit-button:hover {
+    color: white;
+}
+
+#comment-box {
+    width: 100%;
+}
