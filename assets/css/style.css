@@ -280,3 +280,34 @@ footer {
 #comment-box:hover {
     border-color: darkgoldenrod;
 }
+
+/* gallery styling */ 
+
+#gallery {
+    clear: both;
+    background: url(../images/pharaoh.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.videos {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.video_description {
+    text-align: center;
+    margin-top: 25px;
+    background-color:rgba(0, 0, 0, 0.7);
+    max-width:800px;
+    position:absolute;
+    left: 23%;
+    border-radius: 25px;
+    border: 2px solid goldenrod;
+}
+
+.video_description * {
+    color: whitesmoke;
+}
+
