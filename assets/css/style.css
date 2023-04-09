@@ -185,7 +185,6 @@ h1, h2 {
 /* timeline styling */
 
 #timeline {
-    height: 450px;
     margin-left: 25px;
     justify-content: right;
 }
@@ -203,7 +202,7 @@ h1, h2 {
 #hieroglyph-image {
     float: right;
     height: 400px;
-    padding-right: 25px;
+    margin-right: 25px;
 }
 
 
@@ -211,15 +210,12 @@ h1, h2 {
 
 #pharaoh_image {
     float: left;
-    margin-left: 50px;
-    
+    margin-left: 25px;
+    height: 300px;
 }
 
-#myths_mummification {
-    width: 900px;
-    height: 480px;
-    margin-top: 25px;
-    padding-left: 450px;
+#myths_section {
+    margin-bottom: 25px;
     justify-content: right;
 }
 
@@ -328,10 +324,6 @@ footer {
     
 }
 
-.videos {
-    
-}
-
 .video_section {
     text-align: center;
     position: absolute;
@@ -350,3 +342,23 @@ footer {
     margin: 10px;
 }
 
+/* responsive design */
+/* 1200 px screen and down */
+
+@media screen and (max-width: 1200px) {
+    #myths_section {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #timeline_section {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #study_section {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
