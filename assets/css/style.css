@@ -170,12 +170,15 @@ h1, h2 {
 .main-headings {
     text-align: center;
     font-size: 180%;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /* why study egypt styling */
 
 #study_egypt {
     margin-left: 25px;
+    margin-right: 25px;
     justify-content: right;
 }
 
@@ -220,6 +223,14 @@ h1, h2 {
     justify-content: right;
 }
 
+a {
+    color: #daa520;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
 /* footer styling */
 
 footer {
@@ -251,7 +262,7 @@ footer {
 }
 
 .newsletter-form {
-    margin-top:150px;
+    margin-top:100px;
     background-color:rgba(0, 0, 0, 0.7);
     max-width:600px;
     position:absolute;
@@ -313,26 +324,29 @@ footer {
     background: url(../images/mythology.jpg);
     background-size: cover;
     background-position: center;
-    height: 800px;
+    height: 1100px;
+    
 }
 
 .videos {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    
 }
 
-.video_description {
+.video_section {
     text-align: center;
-    margin-top: 25px;
+    position: absolute;
     background-color:rgba(0, 0, 0, 0.7);
     max-width:800px;
-    position:absolute;
     left: 23%;
     border-radius: 25px;
     border: 2px solid goldenrod;
+    height: 1025px;
+    padding-top: 25px;
+    margin-top: 25px;
 }
 
-.video_description * {
+.video_section * {
     color: whitesmoke;
+    margin: 10px;
 }
 
