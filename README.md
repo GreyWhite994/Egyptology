@@ -68,7 +68,7 @@ However, the smallest screen size I tested, Galaxy Fold, using Chrome Developed 
 - Site deployed to Github Pages:
     - The steps to deploy are as follows:
     Go to the settings tab on Github repository.
-    - On the source section drop down menu select master branch. 
+    - Click on Github pages tab on the sidebar, select master branch on the source dropdown menu. 
     - Following this, the page will be re-loaded with a detailed ribbon display to indicate it was successful. 
     live link can be found here - 
 
