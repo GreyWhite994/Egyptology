@@ -283,7 +283,7 @@ footer {
     color: #daa520;
     width:75%;
     height:25px;
-    margin:5px 0 20px 0;
+    margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius:2px;
 }
@@ -320,10 +320,14 @@ footer {
 
 textarea {
     max-width: 100%;
+    color: darkgoldenrod;
+    font-family: inherit;
+    font-size: inherit;
 }
+
 /* gallery styling */ 
 
-#gallery {
+#gallery_main {
     clear: both;
     height: 1100px;
     width: 100%;
