@@ -31,7 +31,6 @@ h1, h2 {
 /* dropdown menu */
 
 #menu {
-    letter-spacing: 2px;
     float: right;
     margin-right: 60px;
 }
@@ -45,8 +44,8 @@ h1, h2 {
     letter-spacing: 2px;
     background-color: black;
     padding: 6px;
-    margin-top: 25px;
     color: darkgoldenrod;
+    margin-top:20px;
 }
 
 #links {
@@ -196,7 +195,6 @@ h1, h2 {
 
 .content {
     color: darkgoldenrod;
-    
 }
 
 #hieroglyph-image {
@@ -248,22 +246,29 @@ footer {
 }
 
 /* form styling */
+#form {
+    clear: both;
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
-.sign-up {
+#sign-background {
     clear: left;
     background: url(../images/newsletter_background.jpg);
     background-size: cover;
     background-position: center;
     height: 800px;
+    width: 100%;
 }
 
 .newsletter-form {
-    margin-top:100px;
     background-color:rgba(0, 0, 0, 0.7);
-    max-width:600px;
-    position:absolute;
-    left:28%;
-    padding:30px;
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+    padding: 30px;
 }
 
 .newsletter-form > h2 {
@@ -313,6 +318,9 @@ footer {
     border-color: darkgoldenrod;
 }
 
+textarea {
+    max-width: 100%;
+}
 /* gallery styling */ 
 
 #gallery {
@@ -371,5 +379,30 @@ footer {
     .video_section * {
         width: 80%;
         margin: 0 auto;
+    }
+}
+
+
+/* 950px and down */
+@media screen and (max-width: 950px) {
+    #welcome-text {
+        width: auto;
+    }
+}
+
+
+/* 500px screen and down */
+@media screen and (max-width: 500px) {
+    #menu {
+        float: left;
+    }
+
+    #hieroglyph-image {
+        height: 200px;
+    }
+
+    iframe {
+        width: auto;
+        height: 300px;
     }
 }
