@@ -35,7 +35,7 @@ This website hopes to educate anyone interested in Egypt and keep it's users inf
     - The gallery page has videos embedded which give extra information regarding the pharaoh Tutankhamun.
     - This is useful to the user as it displays exactly what Egyptology is about and is more visually stimulating than reading text. 
 
--Newsletter Sign-up
+- Newsletter Sign-up
     - This allows a user to sign up, by providing their name and email address, for a newsletter in order to be informed on a regular basis about Egyptology. 
     - The user can specify what most interests them about Egypt in order for their newsletter to be tailored.
     - The user can also leave a comment about their experience with the website. 
