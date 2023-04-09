@@ -11,6 +11,7 @@ body {
     font-weight: 300;
     color: goldenrod;
     background-color: black;
+    letter-spacing: 2px;
 }
 
 /* heading and logo */
@@ -171,15 +172,23 @@ h1, h2 {
     font-size: 180%;
 }
 
+/* why study egypt styling */
+
+#study_egypt {
+    margin-left: 25px;
+    justify-content: right;
+}
+
 /* timeline styling */
 
 #timeline {
     height: 450px;
+    margin-left: 25px;
+    justify-content: right;
 }
 
 .years {
     font-size: 100%;
-    letter-spacing: 2px;
     text-decoration: underline;
 }
 
@@ -194,6 +203,22 @@ h1, h2 {
     padding-right: 25px;
 }
 
+
+/* myths and mummification styling */
+
+#pharaoh_image {
+    float: left;
+    margin-left: 50px;
+    
+}
+
+#myths_mummification {
+    width: 900px;
+    height: 480px;
+    margin-top: 25px;
+    padding-left: 450px;
+    justify-content: right;
+}
 
 /* footer styling */
 
