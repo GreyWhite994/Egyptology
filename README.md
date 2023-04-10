@@ -77,6 +77,7 @@ However, the smallest screen size I tested, Galaxy Fold, using Chrome Developed 
  - Icons for the footer and the section headings and menu were taken from [Font Awesome](https://fontawesome.com/).
  - Learning how to implement form validation was taken from [TutorialsPoint](https://www.tutorialspoint.com/javascript/javascript_form_validations.htm#)
  - Information about Egyptian mythology and mummification taken from [Canadian Museum of History](https://www.historymuseum.ca/cmc/exhibitions/civil/egypt/egcr06e.html)
+ - Code for the structure of the footer borrowed from the Love Running Walkthrough Project.
 
 ### Media
 - Free Images taken from [Pixabay](https://pixabay.com/images/search/egypt/)
