@@ -58,7 +58,7 @@ However, the smallest screen size I tested, Galaxy Fold, using Chrome Developed 
 
 ## Validator Testing
 - Html - No errors returned when passing through W3C validator
-- CSS - No errors returned when passing through (Jigsaw) validator
+- CSS - No errors returned when passing through W3C CSS validator
 
 ## Unfixed Bugs 
 - N/A
