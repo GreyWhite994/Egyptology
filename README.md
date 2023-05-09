@@ -10,8 +10,9 @@ This website hopes to educate anyone interested in Egypt and keep it's users inf
 
 - Navigation Dropdown Menu
     - Featured on each of the three pages. This responsive menu which drops down when the user hovers contains links to Home, Gallery and Sign Up pages. 
-    - Same design on each page to make it easy for the user to navigate and dropdown feature prevents the header from looking cluttered. 
-
+    - Same design on each page to make it easy for the user to navigate and dropdown feature prevents the header from looking cluttered.
+ 
+![nav bar](/assets/images/egyptology_nav.png)
 
 - Welcome Image 
     - Main image with text overlay which describes exactly what Egyptology is.
