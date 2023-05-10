@@ -12,34 +12,48 @@ This website hopes to educate anyone interested in Egypt and keep it's users inf
     - Featured on each of the three pages. This responsive menu which drops down when the user hovers contains links to Home, Gallery and Sign Up pages. 
     - Same design on each page to make it easy for the user to navigate and dropdown feature prevents the header from looking cluttered.
  
-![nav bar](/assets/images/egyptology_nav.png)
+![Nav Bar](/assets/images/egyptology_nav.png)
 
 - Welcome Image 
     - Main image with text overlay which describes exactly what Egyptology is.
     - Added an animation of the sun crossing the sky to make it appealing to the user when the page is loaded. 
 
+![Welcome Image](/assets/images/egyptology_main.png)
+
 - Why Study Egypt 
     - A section giving an overview as to why the user should be interested in studying ancient Egypt in modern society and the benefit of doing so.
 
+![Egypt Study](/assets/images/study_egypt.png)
+
 - Egypt Timeline 
     - A section detailing a general overview of Egyptian history. This is beneficial for the user in order for them to understand the context in which Egyptian society developed. 
+
+![Egypt Timeline](/assets/images/timeline.png)
 
 - Myths and Mummification 
     - This section provides the most information to the user regarding the most interesting aspects of Egyptian culture, mythology and mummification. 
     - This section could be updated with more information later to give the user more information about Egyptian mythology. 
 
+![Egypt Mythology](/assets/images/myth_egypt.png)
+
 - Footer 
     - Gives the social media links for Egyptology and encourages the user to stay connected with the website. 
     - Each link opens in a new tab for easy navigation.
+
+![Footer](/assets/images/footer.png)
 
 - Gallery 
     - The gallery page has videos embedded which give extra information regarding the pharaoh Tutankhamun.
     - This is useful to the user as it displays exactly what Egyptology is about and is more visually stimulating than reading text. 
 
+![Gallery](/assets/images/gallery.png)
+
 - Newsletter Sign-up
     - This allows a user to sign up, by providing their name and email address, for a newsletter in order to be informed on a regular basis about Egyptology. 
     - The user can specify what most interests them about Egypt in order for their newsletter to be tailored.
     - The user can also leave a comment about their experience with the website. 
+
+![Newsletter Sign-up](/assets/images/newsletter.png)
 
 ## Future Features
 
