@@ -77,12 +77,13 @@ I have tested this project by doing the following actions:
 - CSS - No errors returned when passing through W3C CSS validator
 
 ## Bugs 
-Fixed Bugs:
-- The input form initially accepted blank input until extra validation was implemented
-- On extremely small screens the dropdown menu would become distorted until appropriate media queries were added to fix the issue
-Unfixed Bugs:
-- Youtube embedded videos do not correctly maintain aspect ratio on certain screen sizes
-- On extra wide screens the hero image does not cover the entire width of the screen and the animation does not function as intended
+- Fixed Bugs:
+    - The input form initially accepted blank input until extra validation was implemented
+    - On extremely small screens the dropdown menu would become distorted until appropriate media queries were added to fix the issue
+
+- Unfixed Bugs:
+    - Youtube embedded videos do not correctly maintain aspect ratio on certain screen sizes
+    - On extra wide screens the hero image does not cover the entire width of the screen and the animation does not function as intended
 
 ## Deployment 
 
