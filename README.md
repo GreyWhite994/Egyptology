@@ -64,19 +64,25 @@ This website hopes to educate anyone interested in Egypt and keep it's users inf
     - A more detailed and complex timeline would be added to the index page. This timeline would incorporate alot more dates and would be viusally more appealling. 
 
 ## Testing 
+I have tested this project by doing the following actions:
+- Passed the code through W3C HTML/CSS validators and confirmed there are no issues
+- I have tested the w3ebsite at multiple screen sizes and have included appropriate media queries to ensure the design remains consistent
+- Gave invalid input on the signup form: empty input fields/no input for radio field, form will not submit until valid data provided
+- Tested all links, both internal and external to ensure all are functioning correctly
+- Tested embedded videos on the gallery page ensuring they all run smoothly and do not autoplay
 
-I have tested wach of the pages in order to ensure everything is working as intended. There are no broken links. The embed videos function correctly and I have implemented form validation for the newsletter form. 
-
-On a desktop screen everything looks and runs perfectly. I have added responsive design in order to ensure the website looks good on a variety of screens. 
-
-However, the smallest screen size I tested, Galaxy Fold, using Chrome Developed Tools makes the website less than optimal due to it's small size.
 
 ## Validator Testing
 - Html - No errors returned when passing through W3C validator
 - CSS - No errors returned when passing through W3C CSS validator
 
-## Unfixed Bugs 
-- N/A
+## Bugs 
+Fixed Bugs:
+- The input form initially accepted blank input until extra validation was implemented
+- On extremely small screens the dropdown menu would become distorted until appropriate media queries were added to fix the issue
+Unfixed Bugs:
+- Youtube embedded videos do not correctly maintain aspect ratio on certain screen sizes
+- On extra wide screens the hero image does not cover the entire width of the screen and the animation does not function as intended
 
 ## Deployment 
 
